@@ -1,0 +1,6 @@
+{
+  "name": "PhysLab 5512 - Thiết Kế Kế Hoạch Bài Dạy Vật Lí (Sách Kết Nối Tri Thức)",
+  "description": "Ứng dụng hỗ trợ giáo viên Vật lí xây dựng kế hoạch bài dạy chuẩn Công văn 5512 & 3456, bộ sách Kết nối tri thức với cuộc sống (NXB GDVN), tích hợp phát triển năng lực số và thí nghiệm ảo mô phỏng trực quan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

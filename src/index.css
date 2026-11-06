@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+:root {
+  font-family: 'Times New Roman', Times, 'Tinos', 'Liberation Serif', serif;
+}
+
+/* Force Times New Roman globally across the entire UI for CV 5512 pedagogical standard */
+html,
+body,
+button,
+input,
+textarea,
+select,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+td,
+th,
+div,
+label {
+  font-family: 'Times New Roman', Times, 'Tinos', 'Liberation Serif', serif !important;
+}
+
+/* Mathematical formula typography styling */
+.katex {
+  font-size: 1.08em;
+  line-height: 1.2;
+  text-rendering: auto;
+}
+
+.katex,
+.katex * {
+  font-family: KaTeX_Main, 'Times New Roman', Times, serif !important;
+}
+
+.katex .mathnormal,
+.katex .mathit,
+.katex i {
+  font-family: KaTeX_Math, 'Times New Roman', italic, serif !important;
+}
+
+.katex .amsrm {
+  font-family: KaTeX_AMS, 'Times New Roman', serif !important;
+}
+
+.inline-math {
+  display: inline-flex;
+  align-items: baseline;
+  vertical-align: -0.1em;
+  padding: 0 1px;
+}
+
+.formula-card {
+  font-family: 'Times New Roman', Times, 'Tinos', serif;
+}
